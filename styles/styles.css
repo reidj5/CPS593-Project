@@ -149,6 +149,7 @@ header {
 
 .terms {
     align-items: center;
+    text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     width: 50%;
     padding: 20px;
@@ -157,8 +158,24 @@ header {
     margin: auto;
 }
 
-.terms p {
+.terms .terms-p {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     color: rgb(154, 188, 240);
+}
+
+
+.terms .terms-a {
+    color: rgb(26, 0, 73);
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(154, 188, 240);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.terms .terms-a:hover {
+    background-color: white;
+    color: rgb(26, 0, 73);
 }
