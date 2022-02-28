@@ -1,4 +1,40 @@
 /*========================================================= */
+/* Body */
+/*========================================================= */
+body {
+    background-color: #032461cc;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.quote {
+    margin: 4rem 0;
+    line-height: 1.6;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif; 
+    color:#eaeaea;
+    text-align: center;
+}
+
+.quote p {
+    margin: 0;
+    font-family: inherit;
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+.quote p i {
+    font-size: 1.1rem;
+    font-family: 'Montserrat', sans-serif; 
+    font-style: italic;
+    color: #eaeaea;
+
+}
+
+
+/*========================================================= */
 /* Nav Bar */
 /*========================================================= */
 header {
