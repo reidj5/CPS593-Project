@@ -1,4 +1,4 @@
-function createNav() {
+export function createNav() {
     return (
     <div class="topnav">
         <a class="home" href="/index.html">Home</a>
@@ -8,3 +8,4 @@ function createNav() {
     </div>
 )
     }
+

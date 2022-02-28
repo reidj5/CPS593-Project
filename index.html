@@ -11,18 +11,21 @@
     <script type="text/javascript" src="./data/quotes.js"></script>
     <title>Home</title>
 </head>
-<body>
+<header>
     <div class="topnav">
         <a class="home" href="/index.html">Home</a>
         <a href="./login.html">Login</a>
         <a href="./register.html">Register</a>
         <h2 class="webtitle">Comic Addict</h2>
     </div>
+</header>
+<body>
     <div class="quote" >
         <script type="text/javascript">
             quote = randomQuote();
             document.write(`<p class="quote">${quote.QuoteText} <br /> - <i>${quote.Author}</i></p>`);
         </script>
     </div>
+
 </body>
 </html>
