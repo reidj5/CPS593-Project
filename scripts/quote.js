@@ -9,7 +9,7 @@ const randomQuote = () => {
 const placeQuote = () => {
     const quote = randomQuote();
     const quoteElement = document.querySelector('.quote');
-    quoteElement.innerHTML = quote.QuoteText;
+    quoteElement.innerHTML = `<p class="quote-text">${quote.QuoteText}</p> <p class="quote-author">- ${quote.Author}</p>`;
 
 };
 

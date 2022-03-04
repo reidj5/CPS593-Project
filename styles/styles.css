@@ -1,5 +1,11 @@
+
 /*========================================================= */
-/* Body */
+/* Imports */
+/*========================================================= */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,100&display=swap');
+
+/*========================================================= */
+/* Index Body */
 /*========================================================= */
 .index-body {
     margin        : 0;
@@ -7,29 +13,29 @@
     display       : grid;
     place-content : center;
     min-height    : 100vh;
-    background    : rgba(0, 8, 83, 0.678)
+    background    : rgba(17, 23, 80, 0.856)
 
 }
 
 .quote {
     margin: 4rem 0;
     line-height: 1.6;
-    font-size: 1.2rem;
     font-family: 'Montserrat', sans-serif; 
     color:#eaeaea;
     text-align: center;
 }
 
-.quote p {
+.quote .quote-text {
     margin: 0;
     font-family: inherit;
+    font-size: 1.2rem;
     max-width: 75%;
     margin: 0 auto;
 }
 
-.quote p i {
+.quote .quote-author {
+    font-family: inherit;
     font-size: 1.1rem;
-    font-family: 'Montserrat', sans-serif; 
     font-style: italic;
     color: #eaeaea;
 
