@@ -1,4 +1,4 @@
-export const Quotes = [{
+const Quotes = [{
         QuoteID: "1",
         QuoteText: "It’s not who I am underneath, but what I do that defines me.",
         Author: "Batman"
@@ -35,9 +35,4 @@ export const Quotes = [{
     },
 ]
 
-function randomQuote() {
-    var quotes = Quotes;
-    var randomNumber = Math.floor(Math.random() * quotes.length);
-    var randomQuote = quotes[randomNumber];
-    return randomQuote;
-}
+export default Quotes;
